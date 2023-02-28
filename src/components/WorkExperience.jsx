@@ -4,37 +4,38 @@ const WorkExperience = () => {
     return (
         <section className="container-workExperince">
             <div className="container-workExperince-text">
+                <img className="images-me-secundary" src={require('../images/baloncesto.png')} />
                 <h2 className="workExperince-text-title">Work experience</h2>
             </div>
             <div className="container-workExperince-card">
-                <di className="workExperince-card">
-                    <h3>work</h3>
+                <div className="workExperince-card">
+                    <h3>cleanadsi.com</h3>
                     <img
                         alt=""
-                        src={require("../images/imagen-de-codigo.jpg")} />
-                    <p>El código anterior genera un bonito efecto en Chrome, pero que hay de ¿Firefox o IE? En esos navegadores solo vamos veremos un rectangulo con fondo degradado sin ningún texto (porque definimos color transparente). Para solucionarlo, utilizaremos el prefijo -webkit- para el degradado, así otros nevagadores ignorarán esa línea. También usaremos -webkit-text-fill-color que controla el color de relleno de los textos, evitando usar color: transparent (que lo reservaremos para otros navegadores). El texto siguiente se verá rojo en Firefox/IE:</p>
-                </di>
-                <di className="workExperince-card">
-                    <h3>work</h3>
+                        src={require("../images/cleanadsi.jpg")} />
+                    <p>Ecommerce presented as a degree project, created in Laravel, my contributions were on the front end, shopping cart and payment gateway with PayPal.</p>
+                </div>
+                <div className="workExperince-card">
+                    <h3>Social network Web</h3>
                     <img
                         alt=""
-                        src={require("../images/imagen-de-codigo.jpg")} />
-                    <p>El código anterior genera un bonito efecto en Chrome, pero que hay de ¿Firefox o IE? En esos navegadores solo vamos veremos un rectangulo con fondo degradado sin ningún texto (porque definimos color transparente). Para solucionarlo, utilizaremos el prefijo -webkit- para el degradado, así otros nevagadores ignorarán esa línea. También usaremos -webkit-text-fill-color que controla el color de relleno de los textos, evitando usar color: transparent (que lo reservaremos para otros navegadores). El texto siguiente se verá rojo en Firefox/IE:</p>
-                </di>
-                <di className="workExperince-card">
-                    <h3>work</h3>
+                        src={require("../images/redsocialweb.jpg")} />
+                    <p>Social network created in Reac js using knowledge acquired in a Bootcamp given by Globant using other technologies such as Mysql for the modeling of the database Node js for the creation of APIS.</p>
+                </div>
+                <div className="workExperince-card">
+                    <h3>Social network Movil</h3>
                     <img
                         alt=""
-                        src={require("../images/imagen-de-codigo.jpg")} />
-                    <p>El código anterior genera un bonito efecto en Chrome, pero que hay de ¿Firefox o IE? En esos navegadores solo vamos veremos un rectangulo con fondo degradado sin ningún texto (porque definimos color transparente). Para solucionarlo, utilizaremos el prefijo -webkit- para el degradado, así otros nevagadores ignorarán esa línea. También usaremos -webkit-text-fill-color que controla el color de relleno de los textos, evitando usar color: transparent (que lo reservaremos para otros navegadores). El texto siguiente se verá rojo en Firefox/IE:</p>
-                </di>
-                <di className="workExperince-card">
-                    <h3>work</h3>
+                        src={require("../images/redsocialmobil.jpg")} />
+                    <p>This is the mobile version of the social network using React-Native in addition to the technologies already mentioned in the web version.</p>
+                </div>
+                <div className="workExperince-card">
+                    <h3>API Rick and Morty</h3>
                     <img
                         alt=""
-                        src={require("../images/imagen-de-codigo.jpg")} />
-                    <p>El código anterior genera un bonito efecto en Chrome, pero que hay de ¿Firefox o IE? En esos navegadores solo vamos veremos un rectangulo con fondo degradado sin ningún texto (porque definimos color transparente). Para solucionarlo, utilizaremos el prefijo -webkit- para el degradado, así otros nevagadores ignorarán esa línea. También usaremos -webkit-text-fill-color que controla el color de relleno de los textos, evitando usar color: transparent (que lo reservaremos para otros navegadores). El texto siguiente se verá rojo en Firefox/IE:</p>
-                </di>
+                        src={require("../images/rym.jpg")} />
+                    <p>Consumption of Rick and Morty api to practice consumption of APIS</p>
+                </div>
             </div>
 
         </section>
