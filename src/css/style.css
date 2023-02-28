@@ -443,6 +443,27 @@ height: 200px;
         width: 100%;
     }
 
+    .container-precentation-text
+    {
+        display:flex;
+        flex-direction: column;
+        background-image: none;
+        height: 200px;
+        
+    }
+
+    .precentation-text
+    {
+        font-size:x-large;
+        text-align: center;
+    }
+    .container-precentation-background
+    {
+        display:flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
     .precentation-text-title
 {
     display: flex;
